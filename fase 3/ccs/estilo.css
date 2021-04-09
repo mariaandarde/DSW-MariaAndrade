@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ecf3f3;
+    font-family: Arial;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    line-height: 3rem;
+    position: relative;
+}
+nav li ul{
+    position: absolute;
+}
+nav a {
+    color:blanchedalmond;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .5s;
+}
+nav a:hover {
+    background: rgba(0, 0,0,.5);
+}
+nav li ul {
+    display: none;
+}
+nav li:hover ul{
+    display: block;
+}
+nav > ul {
+    background: #333;
+    display: table;
+    width: 100%;
+}
+nav > ul > li {
+    float: left;
+    }
+
+nav > ul > li > ul{
+    top: 100%;
+}    
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+.contenido {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contenido > .header,
+.contenido > .content,
+.contenido > .informacion,
+.contenido > .imagenes,
+.contenido > div {
+    background-color: blanchedalmond;
+    padding: 30px;
+    border: 2px solid ;
+}
+.contenido .header {
+grid-column: 1/5;
+color: black;
+}
+.contenido .content {
+    grid-column: span 2;
+}
+.contenido .imagenes {
+    grid-column: span 2;
+    padding: 20px;
+
+}
+.content .informacion{
+background-color: darkgray;
+padding: 20px;
+margin-top: 5px;
+}
+.pie {
+    background: #333;
+}
