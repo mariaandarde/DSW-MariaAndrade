@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background: #ecf3f3;
     font-family: Arial;
@@ -18,7 +19,7 @@ nav li ul{
     position: absolute;
 }
 nav a {
-    color:royalblue;
+    color:#333;
     display: block;
     padding: 0 2.5em;
     text-decoration: none;
@@ -47,10 +48,11 @@ nav > ul > li > ul{
 }    
 .titulo{
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
-    font-family: Verdana;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
+
 .contenido {
     width: 90%;
     max-width: 1000px;
@@ -62,6 +64,7 @@ nav > ul > li > ul{
 .contenido > .content,
 .contenido > .informacion,
 .contenido > .imagenes,
+
 .contenido > div {
     background-color:rgba(red, green, blue, alpha) ;
     padding: 30px;
@@ -80,8 +83,21 @@ color: black;
 
 }
 .content .informacion{
-background-color: darkgray;
-padding: 20px;
-margin-top: 5px;
+padding: 40px;
+margin-top: 4px;
+}
+#contenedor-pie {
+    width: 50%;
+    background: #CCC;
+    bottom: 1px;
+    bottom: 1px;
+    height: 40px;
+    text-align:center;
 }
 
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }

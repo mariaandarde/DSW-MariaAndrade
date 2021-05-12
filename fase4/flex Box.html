@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="titulo">
+        <h1>FLEX BOX - CSS GRID</h1>
+    </header>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Temas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="flex Box.html">Flex Box</a></li>
+                                <li><a class="dropdown-item" href="css grid.html">CSS3 Grid</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Recursos Digitales
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="tema 1.html">Tema 1</a></li>
+                                <li><a class="dropdown-item" href="tema 2.html">Tema 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aprendizaje
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="actividad 1.html">Actividad 1</a></li>
+                                <li><a class="dropdown-item" href="actividad 2.html">Actividad 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="autor.html" id="navbarDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                AUTOR
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="autor.html">Autor</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <main class="content">
+        <div class="row">
+            <section class="col-8">
+                <article>
+                    <h1>¿Que es Flex Box?</h1>
+                    <p>Es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace diseño
+                        responsive,evitando así el uso de float, escribiendo menos código y facilitando el
+                        posicionamiento de
+                        elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox es
+                        poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el espacio
+                        del que
+                        disponemos.</p>
+
+                </article>
+                <article class="informacion">
+                    <h1>Estructura</h1>
+                    <p>Inicialmente debemos conocer su estructura alguno de los elementos basicos:
+                    <p>•Contenedor: Es el elemento padre que tendrá en su interior cada uno de los ítems flexibles</p>
+                    <p>•Eje principal: Los contenedores flexibles tendrán una orientación principal específica. Por
+                        defecto, es en horizontal (en fila).</p>
+                    <p>• Eje secundario: Orientación secundaria, perpendicular a la principal. Si la principal es en
+                        horizontal, la secundaria será en vertical, y viceversa.</p>
+                    • Ítem: Cada uno de los hijos flexibles que tendrá el contenedor en su interior.
+                    </p>
+                </article>
+            </section>
+            <aside class="col-4">
+                <div>
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FUniversidadUNAD%2Fphotos%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <div>
+        <div id="contenedor-pie">
+            <h3>
+                <h6>Maria Andrade</h6>
+                <h6>Mhandradem@ unadvirtual.edu.co</h6>
+            </h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
