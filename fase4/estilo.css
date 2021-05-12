@@ -80,6 +80,7 @@ color: black;
 .contenido .imagenes {
     grid-column: span 2;
     padding: 20px;
+    
 
 }
 .content .informacion{
